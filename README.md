@@ -238,13 +238,15 @@ See [docs/governance.md](docs/governance.md).
 
 ---
 
-## Original ML experiment
+## ML case study notebook
 
-The repository started as a Google Colab notebook exploring incident classification:
+The original 2021 Colab experiment has been rebuilt as a focused, reproducible enterprise ML case study:
 
 - [ServiceNow_Incident_Classifier.ipynb](ServiceNow_Incident_Classifier.ipynb)
 
-The notebook is retained to show the experimental foundation. The current repository structure demonstrates how that experiment can be evolved into an enterprise delivery pattern.
+The notebook now demonstrates privacy-conscious data handling, class-imbalance analysis, a majority-class baseline, multilingual word + character TF-IDF features, logistic-regression classification, stratified evaluation, macro/weighted F1, confusion analysis, confidence-based human-in-the-loop policy, error analysis, and model metadata export.
+
+If a private ServiceNow dataset is not available locally, the notebook generates synthetic incidents so reviewers can execute the workflow without proprietary data.
 
 ---
 
